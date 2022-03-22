@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DFF6FF;
+    color:	#051367;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+header {
+    width: 100%;
+    padding: 3% 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+}
+
+#form {
+    
+    width: 455px;
+   
+}
+
+#form #name {
+    height: 50px;
+    padding: 0 0 0 7%;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+ 
+}
+
+#form #btn {
+    
+    margin-top: 5%;
+    width:200px;
+    height: 40px;
+    background-color: #5D8BF4;
+    color: white;
+}
+
+
+
+#form #erreur {
+    color: rgb(247, 37, 37);
+    font-weight: 600;
+    font-size: 12px;
+  
+}
+
+
+
+.liste {
+    width: 100%;
+}
+
+.liste #film {
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 4%;
+}
+
+.liste #film #listFilm {
+    width: 33%;
+    margin: 4%;
+}
+
+.liste #film .cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #DFF6FF;
+    border-radius: 4px;
+    padding: 5% 0;
+}
+
+.liste #film .cards li{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
